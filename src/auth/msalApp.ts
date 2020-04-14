@@ -17,7 +17,7 @@ export const msalApp = new UserAgentApplication({
     authority: 'https://login.microsoftonline.com/common',
     validateAuthority: true,
     postLogoutRedirectUri: 'http://localhost:3000',
-    navigateToLoginRequestUrl: false
+    navigateToLoginRequestUrl: true
   },
   cache: {
     cacheLocation: 'sessionStorage',
