@@ -16,7 +16,7 @@ export const msalApp = new UserAgentApplication({
     clientId: 'af286dc1-3775-46d9-b3bb-24f15bcfbca5', // TODO: move this into a cfg value from composition root
     authority: 'https://login.microsoftonline.com/common',
     validateAuthority: true,
-    postLogoutRedirectUri: 'https://dawnli619215645.github.io/',
+    postLogoutRedirectUri: 'http://localhost:3000',
     navigateToLoginRequestUrl: false
   },
   cache: {
